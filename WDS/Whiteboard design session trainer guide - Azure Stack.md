@@ -28,24 +28,24 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
 - [Trainer information](#trainer-information)
     - [Role of the trainer](#role-of-the-trainer)
     - [Whiteboard design session flow](#whiteboard-design-session-flow)
-    - [Before the whiteboard design session: How to prepare](#before-the-whiteboard-design-session-how-to-prepare)
-    - [During the whiteboard design session: Tips for an effective whiteboard design session](#during-the-whiteboard-design-session-tips-for-an-effective-whiteboard-design-session)
+    - [Before the whiteboard design session: How to prepare](#before-the-whiteboard-design-session--how-to-prepare)
+    - [During the whiteboard design session: Tips for an effective whiteboard design session](#during-the-whiteboard-design-session--tips-for-an-effective-whiteboard-design-session)
 - [Azure Stack whiteboard design session student guide](#azure-stack-whiteboard-design-session-student-guide)
     - [Abstract and learning objectives](#abstract-and-learning-objectives)
-    - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
+    - [Step 1: Review the customer case study](#step-1--review-the-customer-case-study)
         - [Customer situation](#customer-situation)
         - [Customer needs](#customer-needs)
         - [Customer objections](#customer-objections)
         - [Infographic for common scenarios](#infographic-for-common-scenarios)
-    - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution)
-    - [Step 3: Present the solution](#step-3-present-the-solution)
+    - [Step 2: Design a proof of concept solution](#step-2--design-a-proof-of-concept-solution)
+    - [Step 3: Present the solution](#step-3--present-the-solution)
     - [Wrap-up](#wrap-up)
     - [Additional references](#additional-references)
 - [Azure Stack whiteboard design session trainer guide](#azure-stack-whiteboard-design-session-trainer-guide)
-    - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study-1)
-    - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution-1)
-    - [Step 3: Present the solution](#step-3-present-the-solution-1)
-    - [Wrap-up](#wrap-up-1)
+    - [Step 1: Review the customer case study](#step-1--review-the-customer-case-study)
+    - [Step 2: Design a proof of concept solution](#step-2--design-a-proof-of-concept-solution)
+    - [Step 3: Present the solution](#step-3--present-the-solution)
+    - [Wrap-up](#wrap-up)
     - [Preferred target audience](#preferred-target-audience)
     - [Preferred solution](#preferred-solution)
     - [Checklist of preferred objection handling](#checklist-of-preferred-objection-handling)
@@ -204,7 +204,7 @@ Contoso has expressed to FT the need to embrace Microsoft Azure technologies as 
 
 With the goals in mind, Contoso has challenged FT to help use their mortgage application as the first application to be used with Microsoft Azure.
 
-![The Contoso Dallas Data Center diagram shows the flow between Contoso Mortgage customers and Contoso\'s web servers, application servers, and SQL servers.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image2.png "Diagram indicating the customer situation. Shows how data from Contoso mortgage customers moves from public facing web servers to a queue and from there move to application servers and SQL (sequel) servers")
+![The Contoso Dallas Data Center diagram shows the flow between Contoso Mortgage customers and Contoso\'s web servers, application servers, and SQL servers.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image2.png "The Contoso Dallas Data Center diagram shows the flow between Contoso Mortgage customers and Contoso's web servers, application servers, and SQL servers.")
 
 ### Customer needs 
 
@@ -234,7 +234,7 @@ Contoso is looking for FT to provide the following for their expansion into Nort
 
 ### Infographic for common scenarios
 
-![In the Infographic for Common scenarios, Microsoft Azure (public) is connected to the Microsoft Azure Stoack (private / hosted) through Developers and IT.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image3.png "Infographic for Common scenarios")
+![In the Infographic for Common scenarios, Microsoft Azure (public) is connected to the Microsoft Azure Stoack (private / hosted) through Developers and IT.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image3.png "In the Infographic for Common scenarios, Microsoft Azure (public) is connected to the Microsoft Azure Stack (private / hosted) through Developers and IT.")
 
 ## Step 2: Design a proof of concept solution
 
@@ -406,7 +406,7 @@ Time frame: 15 minutes
 
 After being engaged by Contoso and gathering the requirements from the client, FT has put forward a design which embraces the Azure platform, DevOps for development and deployment, and the data sovereignty issues discovered by Contoso (no customer data in the public cloud). The solution consists of using Azure public cloud in the South-Central Region and Azure Stack running in a FT Dallas datacenter.
 
-![Both Traffic manager and VPN connect Azure Public (South Central) with the Azure Stock FusionTomo Dallas Datacenter, which in turn connects via VPN to On-Premises.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image4.png "Preferred solution")
+![Both Traffic manager and VPN connect Azure Public (South Central) with the Azure Stock FusionTomo Dallas Datacenter, which in turn connects via VPN to On-Premises.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image4.png "Both Traffic manager and VPN connect Azure Public (South Central) with the Azure Stock FusionTomo Dallas Datacenter, which in turn connects via VPN to On-Premises.")
 
 Design a hybrid-cloud architecture using Azure services that will make up the implementation for Contoso:
 
@@ -476,7 +476,7 @@ Plan and Document Azure Stack Taxonomy for this deployment
 
 -   Services/Resource Providers (RP): The base Resource Providers: Compute RP, Network RP, Storage RP and KeyVault RP will all be enabled. The SQL Server RP will be enabled and configured. The Azure App RP will be enabled and configured (The Windows Server 2016, SQL Server 2017, SQL IaaS Extension for Azure Stack).
 
-    ![The Azure Stack Taxonomy displays as previously described.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image5.png "Azure Stack Taxonomy")
+    ![The Azure Stack Taxonomy displays as previously described.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image5.png "The Azure Stack Taxonomy displays as previously described.")
 
 Design Network connectivity between the Contoso Regional HQ in Dallas to Azure and Azure Stack that will allow future applications to be deployed in the public cloud or Azure Stack and still provide connectivity to customer or On-Premises data.
 

@@ -27,13 +27,13 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
 
 - [Azure Stack whiteboard design session student guide](#azure-stack-whiteboard-design-session-student-guide)
     - [Abstract and learning objectives](#abstract-and-learning-objectives)
-    - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
+    - [Step 1: Review the customer case study](#step-1--review-the-customer-case-study)
         - [Customer situation](#customer-situation)
         - [Customer needs](#customer-needs)
         - [Customer objections](#customer-objections)
         - [Infographic for common scenarios](#infographic-for-common-scenarios)
-    - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution)
-    - [Step 3: Present the solution](#step-3-present-the-solution)
+    - [Step 2: Design a proof of concept solution](#step-2--design-a-proof-of-concept-solution)
+    - [Step 3: Present the solution](#step-3--present-the-solution)
     - [Wrap-up](#wrap-up)
     - [Additional references](#additional-references)
 
@@ -84,7 +84,7 @@ Contoso has expressed to FT the need to embrace Microsoft Azure technologies as 
 
 With the goals in mind, Contoso has challenged FT to help use their mortgage application as the first application to be used with Microsoft Azure.
 
-![The Contoso Dallas Data Center diagram shows the flow between Contoso Mortgage customers and Contoso\'s web servers, application servers, and SQL servers.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image2.png "Diagram indicating the customer situation. Shows how data from Contoso mortgage customers moves from public facing web servers to a queue and from there move to application servers and SQL (sequel) servers")
+![The Contoso Dallas Data Center diagram shows the flow between Contoso Mortgage customers and Contoso\'s web servers, application servers, and SQL servers.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image2.png "Contoso Dallas Data Center diagram The Contoso Dallas Data Center diagram shows the flow between Contoso Mortgage customers and Contoso's web servers, application servers, and SQL servers.")
 
 ### Customer needs 
 
@@ -114,7 +114,7 @@ Contoso is looking for FT to provide the following for their expansion into Nort
 
 ### Infographic for common scenarios
 
-![In the Infographic for Common scenarios, Microsoft Azure (public) is connected to the Microsoft Azure Stoack (private / hosted) through Developers and IT.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image3.png "Infographic for Common scenarios")
+![In the Infographic for Common scenarios, Microsoft Azure (public) is connected to the Microsoft Azure Stoack (private / hosted) through Developers and IT.](images/Whiteboarddesignsessiontrainerguide-AzureStackimages/media/image3.png "In the Infographic for Common scenarios, Microsoft Azure (public) is connected to the Microsoft Azure Stack (private / hosted) through Developers and IT.")
 
 ## Step 2: Design a proof of concept solution
 
