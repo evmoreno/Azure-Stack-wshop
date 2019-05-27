@@ -129,7 +129,7 @@
         "vnetId": "[resourceId(resourceGroup().name,'Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
         "subnetRef": "[concat(variables('vnetID'), '/subnets/', parameters('subnetName'))]",
         "scriptFileName": "post-config.ps1",
-        "scriptPath": "https://raw.githubusercontent.com/evmoreno/lab-support-public/master/azurestack/",
+        "scriptPath": "https://github.com/evmoreno/Ws-Azure-Stack/blob/master/Hands-on%20lab/HostBuild/",
         "fileUri": "[concat(variables('scriptPath'), variables('scriptFileName'))]",
         "adminUsername": "__administrator",
         "osDiskSizeinGB": 256,
