@@ -39,7 +39,7 @@ For help with installation of the Azure Stack Development Kit, review the follow
 
 ### Task 1: Create a virtual machine to execute the lab
 
-1.  Launch a browser, and navigate to <https://github.com/evmoreno/Ws-Azure-Stack/Hands-on%20lab/HostBuild/> and click the **Deploy to Azure** button
+1.  Launch a browser, and navigate to <https://github.com/evmoreno/Ws-Azure-Stack/blob/master/Hands-on%20lab/HostBuild/readme.md> and click the **Deploy to Azure** button
 
 2.  Specify a resource group name **AzureStack** and deploy the template
 
